@@ -1,1 +1,115 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+
+  align-content: center;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+  white-space: nowrap;
+}
+
+.header__link {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.header__link-active {
+  border-bottom: 0;
+}
+
+.header__links-list-item_no-bullit {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header__logo {
+  justify-self: center;
+}
+
+.header__logo-image {
+  max-height: 105px;
+}
+
+.header__contacts {
+  display: flex;
+  justify-self: end;
+  align-items: center;
+}
+
+.header__address {
+  max-width: 240px;
+  margin-top: 2px;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.cover {
+  color: white;
+  text-transform: uppercase;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__title {
+  padding-top: 165px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 123px;
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  display: block;
+}
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+display: flex;
+justify-content: space-between;
+margin-top: 120px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.bet-button {
+  height: 52px;
+  width: 257px;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: normal;
+}
