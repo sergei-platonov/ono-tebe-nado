@@ -245,6 +245,7 @@ background-color: black;
   display: flex;
   justify-content: space-between;
   margin-top: 180px;
+  margin-bottom: 90px;
 }
 
 .footer__menu-list {
