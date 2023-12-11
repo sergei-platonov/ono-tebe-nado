@@ -38,3 +38,13 @@ img {
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.link {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.link-active {
+  border-bottom: 0;
+}
