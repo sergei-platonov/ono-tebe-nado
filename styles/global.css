@@ -6,7 +6,8 @@
 
 body {
   min-width: 1100px;
-  margin: 0;
+  max-width: 1100px;
+  margin: 0 auto;
   padding: 0;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -36,14 +37,18 @@ img {
 }
 
 .content-section {
-  padding-left: 24px;
   padding-right: 24px;
+  padding-left: 24px;
 }
 
 .link {
   border-bottom: 1px solid black;
   text-decoration: none;
   text-transform: lowercase;
+}
+
+.link:hover {
+  border-bottom: 0;
 }
 
 .link-active {

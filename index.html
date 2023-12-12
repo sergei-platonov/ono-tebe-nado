@@ -14,36 +14,33 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="link link-active">Главная</a>
+            <a href="#" class="link link-active">Главная</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="link">Посмотреть лоты</a>
+            <a href="#lots" class="link">Посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="link">Об аукционе</a>
+            <a href="#about" class="link">Об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header__logo">
+      <a href="#" class="header__logo">
         <img
           src="./images/logo-black.svg"
           alt="Логотип"
           class="header__logo-image"
         />
       </a>
-      <div class="header__contacts">
-        <address class="address">
-          <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-          наб. Принсенграхт 263-265, Амстердам
-        </address>
-      </div>
+      <address class="address">
+        <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
     </header>
     <main class="main">
       <section class="cover">
         <div class="overlay"></div>
-        <div class="content-section">
-          <h1 class="cover__title">
+          <h1 class="cover__title content-section">
             <span class="aligned-text"
               >О<span class="letter-spacing-extended">н</span>о</span
             >
@@ -58,15 +55,14 @@
               ></span
             >
           </h1>
-          <div class="cover__description">
+          <div class="cover__description content-section">
             <p class="cover__description-text">
               Аукцион вещей, в которые никто не верил
             </p>
             <button class="bet-button">Сделать ставку</button>
           </div>
-        </div>
       </section>
-      <section class="lots content-section">
+      <section id="lots" class="lots content-section">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -121,7 +117,7 @@
         </ul>
         <a href="#" class="lots__look-more-link link">посмотреть больше</a>
       </section>
-      <section class="about content-section">
+      <section id="about" class="about content-section">
         <div class="about__column">
           <div class="about__logo">
             <img
@@ -155,14 +151,11 @@
       </section>
     </main>
     <footer class="footer content-section">
-      <div class="footer__contacts">
-        <address class="address">
-          <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a
-          ><br />
-          наб. Принсенграхт 263-265, Амстердам
-        </address>
-      </div>
+      <address class="address">
+        <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
